@@ -75,6 +75,8 @@ class FindorWidget {
         this.charData["image"] ? "&image=" + this.charData["image"] : ""
       }&username=${this.charData["username"]}`;
       this.messageContainer.style.border = 0;
+      this.messageContainer.style.width = "350px"; 
+      this.messageContainer.style.minWidth = "350px"; 
       this.messageContainer.classList.add("hidden", "message-container");
 
       container.appendChild(this.messageContainer);
